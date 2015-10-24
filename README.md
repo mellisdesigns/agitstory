@@ -49,6 +49,9 @@ git pull
 ```
 
 #### Creating your own branch
+So your manager says that he needs you to add a feature into the current site. It's simples, he wants you change the background color of the whole website from white to a light grey. This is a perfect opportunity to create our own branch. Remember, creating our branch is just another way of making a self contained box that we can work in without effecting any other developers.
+
+Branches should be meaningful and a suggestion is to always give a short clear description of what you will be working on in your branch. For example we could us bugfix/remove_extra_image or feature/add_banner_image or enhancement/change_background_color
 ```
 git checkout develop
 git pull
@@ -57,6 +60,7 @@ git checkout enhancement/add_background_image
 ```
 
 #### Modifying and Editing your Files
+So you open your CSS file and find the part you need to change, you set background-color to the color #CFCFCF. Your boss is happy with the final color and your are happy with the work you have done. Awesome, time to check the files we changed in out branch.
 ```
 git status
 ```
